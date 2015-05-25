@@ -1,6 +1,7 @@
 <?php
 
 require_once dirname(__FILE__) . '/../src/classes/Musikwunsch.php';
+require_once dirname(__FILE__) . '/../src/classes/Db.php';
 
 class MusikwunschTest extends PHPUnit_Framework_TestCase {
 
@@ -36,5 +37,10 @@ class MusikwunschTest extends PHPUnit_Framework_TestCase {
         $this->_musikwunsch->setIpAddress("123.456.789.012");
         $ipAddress = $this->_musikwunsch->getIpAddress();
         $this->assertEquals(15,strlen($ipAddress));
+    }
+
+    function testDatabaseConnectionSuccessful() {
+        $db = new Db();
+        $this->assertNotEquals(false,$db->connect());
     }
 }

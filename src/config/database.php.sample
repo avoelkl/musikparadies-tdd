@@ -1,5 +1,0 @@
-<?php
-$mysqlHost      = "localhost";
-$mysqlUser      = "";
-$mysqlPassword  = "";
-$mysqlDb        = "";

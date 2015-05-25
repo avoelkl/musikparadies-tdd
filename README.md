@@ -8,6 +8,9 @@ First small app with *real* TDD applied.
 # Dependencies
 Twig
 
+# Set up
+- Copy src/config/database.json.sample to database.json and adjust your MySQL settings
+
 # Author
 Anna Völkl
 @resueAnn
