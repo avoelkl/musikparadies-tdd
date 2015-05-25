@@ -11,35 +11,48 @@
  * @since      Class available since Release 1.2.0
  */
 
-class Musikwunsch {
+require_once __DIR__ . '/Db.php';
+
+class Musikwunsch
+{
     private $_musikwunsch;
     private $_hoerername;
     private $_ipAddress;
 
-    public function getMusikwunsch() {
+    public function getMusikwunsch()
+    {
         return $this->_musikwunsch;
     }
 
-    public function setMusikwunsch($musikwunsch) {
+    public function setMusikwunsch($musikwunsch)
+    {
         $this->_musikwunsch = $musikwunsch;
         return $musikwunsch;
     }
 
-    public function getHoerername() {
+    public function getHoerername()
+    {
         return $this->_hoerername;
     }
 
-    public function setHoerername($hoerername) {
+    public function setHoerername($hoerername)
+    {
         $this->_hoerername = $hoerername;
         return $this->_hoerername;
     }
 
-    public function getIpAddress() {
+    public function getIpAddress()
+    {
         return $this->_ipAddress;
     }
 
-    public function setIpAddress($ipAddress) {
+    public function setIpAddress($ipAddress)
+    {
         $this->_ipAddress = $ipAddress;
+    }
+
+    public function save() {
+
     }
 
 
