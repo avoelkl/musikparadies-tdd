@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.navbar-inverse {
+    background-image: url("../img/bg-content-repeat.png");
+    background-repeat: repeat;
+}
+
+.btn-success {
+    background-image: linear-gradient(to bottom, #64095e 0px, #91128a 100%);
+    background-repeat: repeat-x;
+    border-color: #64095e;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color: #91128a;
+    background-position: 0 -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

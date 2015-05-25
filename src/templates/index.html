@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    {% include 'head.html' %}
+</head>
+<body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">Sie verwenden einen <strong>alten</strong> Browser. Bitte <a href="http://browsehappy.com/">aktualisieren
+        Sie Ihren Browser</a>.</p>
+    <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Radio Musikparadies - Wunschbox</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h2>Musikwunsch</h2>
+
+                {% include 'message.html' %}
+                {% include 'form.html' %}
+
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <p>&copy; Radio Musikparadies 2015</p>
+        </footer>
+    </div>
+    {% include 'before_body_end.html' %}
+</body>
+</html>

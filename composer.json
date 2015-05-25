@@ -1,0 +1,12 @@
+{
+    "name": "avoelkl/musikparadies-tdd",
+    "authors": [
+        {
+            "name": "Anna Voelkl",
+            "email": "annavoelkl87@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.0"
+    }
+}
